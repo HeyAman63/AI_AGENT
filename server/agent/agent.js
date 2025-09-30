@@ -47,7 +47,7 @@ const jsExecutor  = tool(async ({code})=>{
 
 const model = new ChatGoogleGenerativeAI({
     model: "gemini-2.5-flash-lite",
-    apiKey:"AIzaSyAxj4SnZ28A1d0lQkj1c3wvoYAv-CQMUJA",
+    apiKey:"apikey",
 });
 
 const checkpointSaver = new MemorySaver();
